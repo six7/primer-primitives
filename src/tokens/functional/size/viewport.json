@@ -1,28 +1,28 @@
 {
   "viewportRange": {
     "narrow": {
-      "$value": "(max-width: calc({breakpoint.medium} - 0.02px))",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(max-width: calc({breakpoint.medium} - 0.02px))"
     },
     "narrowLandscape": {
-      "$value": "(max-width: calc({breakpoint.large} - 0.02px) and (max-height: calc({breakpoint.small} - 0.02px)) and (orientation: landscape))",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(max-width: calc({breakpoint.large} - 0.02px) and (max-height: calc({breakpoint.small} - 0.02px)) and (orientation: landscape))"
     },
     "regular": {
-      "$value": "(min-width: {breakpoint.medium})",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(min-width: {breakpoint.medium})"
     },
     "wide": {
-      "$value": "(min-width: {breakpoint.xxlarge})",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(min-width: {breakpoint.xxlarge})"
     },
     "portrait": {
-      "$value": "(orientation: portrait)",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(orientation: portrait)"
     },
     "landscape": {
-      "$value": "(orientation: landscape)",
-      "$type": "custom-viewportRange"
+      "$type": "custom-viewportRange",
+      "$value": "(orientation: landscape)"
     }
   }
 }
