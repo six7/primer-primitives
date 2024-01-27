@@ -2,7 +2,7 @@
   "boxShadow": {
     "thin": {
       "$value": "inset 0 0 0 {borderWidth.thin}",
-      "$description": "Thin shadow for borders",
+      "$description": "Thin shadow forf borders",
       "$type": "string"
     },
     "thick": {
@@ -35,7 +35,9 @@
       "$extensions": {
         "org.primer.figma": {
           "collection": "functional/size",
-          "scopes": ["radius"],
+          "scopes": [
+            "radius"
+          ],
           "codeSyntax": {
             "web": "var(--borderRadius-small) /* utility class: .rounded-1 */"
           }
@@ -48,7 +50,9 @@
       "$extensions": {
         "org.primer.figma": {
           "collection": "functional/size",
-          "scopes": ["radius"],
+          "scopes": [
+            "radius"
+          ],
           "codeSyntax": {
             "web": "var(--borderRadius-medium) /* utility class: .rounded-2 */"
           }
@@ -61,7 +65,9 @@
       "$extensions": {
         "org.primer.figma": {
           "collection": "functional/size",
-          "scopes": ["radius"],
+          "scopes": [
+            "radius"
+          ],
           "codeSyntax": {
             "web": "var(--borderRadius-large) /* utility class: .rounded-3 */"
           }
@@ -70,12 +76,14 @@
     },
     "full": {
       "$value": "9999px",
-      "$type": "dimension",
       "$description": "Use this border radius for pill shaped elements",
+      "$type": "dimension",
       "$extensions": {
         "org.primer.figma": {
           "collection": "functional/size",
-          "scopes": ["radius"],
+          "scopes": [
+            "radius"
+          ],
           "codeSyntax": {
             "web": "var(--borderRadius-full) /* utility class: .circle */"
           }
